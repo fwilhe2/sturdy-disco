@@ -17,5 +17,5 @@ jobs:
     - name: Run main.sh in specified kernel but with same userspace
       uses: danobi/vmtest-action@master
       with:
-        kernel_url: https://github.com/danobi/vmtest/releases/download/test_assets/bzImage-v6.6-fedora38
+        kernel_url: https://github.com/fwilhe2/potential-spork/actions/runs/10656526510/artifacts/1879771762
         command: uname -r
